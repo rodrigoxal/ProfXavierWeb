@@ -26,13 +26,13 @@
   }
 
   nav li {
-    margin: 0 10px;
+    margin: 0 5px;
       }
 
   /* Add styles for the links in the navigation menu */
   nav a {
     font-family: Calibri;
-    font-size: 10px;
+    font-size: 15px;
     text-decoration: underline;
     color: white;
   }
@@ -41,10 +41,9 @@
   main {
     padding: 0px;
     text-align: center;
+    font-size: 10px
   }
-main p{
-    font-size: 5px
-}
+
   /* Add styles for the footer */
   footer {
     background-color: lightblue;
