@@ -21,16 +21,18 @@
     padding: 0.2px;
     display: flex;
     justify-content: center;
-     background-color: gray;
+    background-color: lightblue;
   
   }
 
   nav li {
     margin: 0 10px;
-  }
+      }
 
   /* Add styles for the links in the navigation menu */
   nav a {
+    font-family: Calibri;
+    font-seize: 15px;
     text-decoration: underline;
     color: white;
   }
