@@ -32,7 +32,7 @@
   /* Add styles for the links in the navigation menu */
   nav a {
     font-family: Calibri;
-    font-seize: 12px;
+    font-size: 10px;
     text-decoration: underline;
     color: white;
   }
@@ -42,7 +42,9 @@
     padding: 0px;
     text-align: center;
   }
-
+main p{
+    font-size: 5px
+}
   /* Add styles for the footer */
   footer {
     background-color: lightblue;
