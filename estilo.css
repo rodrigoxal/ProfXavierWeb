@@ -21,7 +21,7 @@
     padding: 0.2px;
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: black;
   
   }
 
@@ -32,9 +32,9 @@
   /* Add styles for the links in the navigation menu */
   nav a {
     font-family: Calibri;
-    font-seize: 15px;
+    font-seize: 12px;
     text-decoration: underline;
-    color: white;
+    color: blue;
   }
 
   /* Add styles for the main content */
