@@ -42,8 +42,17 @@
     <nav>
         <ul>
           <li> <button type="button" onclick="muda_cor"> Tema 2 </button></li>
-          <li> <button type="button"> Botao 2 </button> </li>
+          <li>  <button id="changeColorButton">Change Color</button> </li>
         </ul>
+
+         <script>
+             const changeColorButton = document.getElementById('changeColorButton');
+             // Add a click event listener to the button
+             changeColorButton.addEventListener('click', () => {
+                 // Change the body background color to red
+                 document.body.style.backgroundColor = 'red';
+             });
+         </script>
       </nav>
       Copyright © 2023 Rodrigo Xavier de Almeida Leão
     </footer>
