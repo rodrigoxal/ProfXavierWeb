@@ -5,7 +5,7 @@
   	<link rel="stylesheet" type="text/css" href="estilo.css">
     <title> ESCOLA DO PROFESSOR XAVIER </title>
 </head>
-<body  id = "principal">
+<body>
     
     <header>
       <h1 align="center">ESCOLA DO PROFESSOR XAVIER</h1>
@@ -41,16 +41,17 @@
         </script>
     <nav>
         <ul>
-          <li> <button type="button" onclick="muda_cor"> Tema 2 </button></li>
-          <li>  <button id="changeColorButton">Change Color</button> </li>
+          <li> <button id="tema1button"> Tema 1 </button></li>
+          <li>  <button id="tema2button">Tema 2</button> </li>
         </ul>
 
          <script>
-             const changeColorButton = document.getElementById('changeColorButton');
-             // Add a click event listener to the button
-             changeColorButton.addEventListener('click', () => {
-                 // Change the body background color to red
+             const changeColorButton2 = document.getElementById('tema2button');
+             // Adiciona evento de listener ao botao
+             changeColorButton2.addEventListener('click', () => {
+                 // Muda a cor de fundo
                  document.body.style.backgroundColor = 'red';
+                 document.header.style.backgroundColor = 'red';
              });
          </script>
       </nav>
