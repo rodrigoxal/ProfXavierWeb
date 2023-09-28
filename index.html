@@ -34,11 +34,6 @@
     </main>
      
     <footer>
-        <script>
-            function muda_cor(){
-                document.getElementById("principal").style.backgroundColor="red";
-            }
-        </script>
     <nav>
         <ul>
           <li> <button id="tema1button"> Tema 1 </button></li>
@@ -52,6 +47,13 @@
                  // Muda a cor de fundo
                  document.body.style.backgroundColor = 'red';
                  document.header.style.backgroundColor = 'red';
+             });
+                const changeColorButton1 = document.getElementById('tema1button');
+             // Adiciona evento de listener ao botao
+             changeColorButton1.addEventListener('click', () => {
+                 // Muda a cor de fundo
+                 document.body.style.backgroundColor = 'white';
+                 document.header.style.backgroundColor = 'white';
              });
          </script>
       </nav>
